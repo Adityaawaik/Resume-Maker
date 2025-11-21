@@ -2,6 +2,10 @@
 
 Make your Resume Here : https://adityaawaik.github.io/Resume-Maker/
 
+#Features : 
+1. Implemented add, edit, preview, and delete functionality for resume sections using React Hooks to manage component state and updates.
+2. Utilized core React patterns—such as state, props, and conditional rendering—to ensure a smooth, interactive, and user-friendly resume-building experience.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
