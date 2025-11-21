@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.app-heading {
+  background: royalblue;
+  color: white;
+  padding: 0.5rem;
+}
+
+.app-heading-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.resume-logo {
+  width: 50px;
+}
+
+.heading {
+  font-size: 6vmin;
+}
+
+.user-resume-data-content {
+  display: flex;
+  justify-content: center;
+}
+
+.user-resume-information {
+  width: 70%;
+  padding: 2rem;
+  box-shadow: 0px 2px 2px 2px black;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
+.personal-information-heading,
+.personal-skills-heading,
+.work-exp-heading,
+.project-heading,
+.education-heading {
+  color: royalblue;
+  margin: 1rem 0;
+}
+
+.applicant-name,
+.user-job-position,
+.job-profession-summary,
+.user-phone-number,
+.user-email-address,
+.user-linkedIn-link,
+.user-github-link,
+.skills,
+.work-position-input,
+.user-work-company-input,
+.work-city,
+.user-job-start-date,
+.user-job-end-date,
+.user-work-city,
+.user-accomplishment,
+.project-name,
+.project-link,
+.technology-used,
+.user-description,
+.degree-name,
+.university-name,
+.start-date,
+.end-date {
+  width: 100%;
+  padding: 0.7rem;
+  outline: none;
+  margin: 0.5rem 0;
+  box-shadow: 1px -1px 3px -1px black;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.job-profession-summary,
+.user-accomplishment,
+.user-description {
+  resize: none;
+  height: 7rem;
+}
+
+.email-phone-container,
+.linkedIn-github-container,
+.position-company-container,
+.job-period-work-city-container,
+.experience-handler,
+.project-handler,
+.project-name-link-container,
+.degree-university-container,
+.uni-start-date-end-date-container,
+.education-handler,
+.user-job-duration-city-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-container,
+.phone-container,
+.linkedIn-container,
+.github-container,
+.work-position-container,
+.work-company-container,
+.work-city-container,
+.project-name-container,
+.project-link-container,
+.degree-container,
+.university-container,
+.uni-start-date-container,
+.uni-end-date-container {
+  width: 47%;
+}
+
+.job-period-container {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-start-container,
+.job-end-container {
+  width: 45%;
+}
+
+.exp-btn,
+.project-btn,
+.education-btn {
+  width: 48%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+.add-experience,
+.add-project,
+.add-education {
+  background-color: #4174e1;
+  color: white;
+}
+
+.delete-experience,
+.delete-project,
+.delete-education {
+  background-color: red;
+  color: white;
+}
+
+.user-name,
+.user-skill-heading,
+.user-work-exp-heading,
+.user-project-heading,
+.user-education-heading {
+  color: royalblue;
+  margin: 0.5rem 0;
+}
+
+.user-profession-summary,
+.job-company,
+.user-job-duration-city-container,
+.user-project-name,
+.user-education-content,
+.user-work-exp-content,
+.user-work-experience {
+  margin: 0.5rem 0;
+}
+
+.email-logo,
+.phone-number-logo,
+.linkedIn-logo,
+.github-logo {
+  width: 25px;
+}
+
+.user-connection-ways {
+  margin: 0.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  word-break: break-all;
+}
+
+.user-email-address-container,
+.user-phone-number-container,
+.user-linedIn-container,
+.user-github-container {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.5rem 0;
+}
+
+.job-accomplishment,
+.user-project-description,
+.user-profession-summary {
+  text-align: justify;
+  word-spacing: 4px;
+  word-break: break-all;
+}
+
+.job-duration,
+.job-company,
+.job-city,
+.user-project-link,
+.user-tech-used span,
+.user-project-description span {
+  font-weight: bold;
+}
+
+.user-project-link,
+.user-tech-used,
+.user-project-description,
+.education-degree,
+.education-university,
+.education-period {
+  margin: 0.2rem 0;
+}
+
+.edit-preview-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.handler-btn {
+  width: 60%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.preview-btn {
+  background: royalblue;
+  color: white;
+}
+
+.edit-btn {
+  background-color: gray;
+  color: white;
+}
+
+.user-project-link {
+  word-break: break-all;
+}
+
+@media (max-width: 450px) {
+  .user-resume-information {
+    width: 95%;
+  }
+  .user-job-duration-city-container {
+    display: block;
+  }
+}
